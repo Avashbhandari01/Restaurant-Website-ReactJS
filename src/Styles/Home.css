@@ -1,0 +1,274 @@
+.home {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    width: 60vw;
+    background-color: white;
+    border-radius: 8px;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 5.8vw;
+    opacity: 0.95;
+    font-family: 'Playfair Display', serif;
+    padding-top: 3vh;
+    padding-bottom: 6vh
+}
+
+.container p {
+    margin: 0;
+    padding: 0;
+    font-size: 3.5vw;
+    font-weight: bold;
+    opacity: 0.95;
+    font-family: 'Sacramento', cursive;
+    padding-top: 3.8vh;
+}
+
+.container button {
+    width: 14vw;
+    height: 7vh;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.container button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+    opacity: 0.95;
+    
+}
+
+.line {
+    margin: 0;
+    padding: 0;
+    width: 26vw;
+    height: 1px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.container-1 {
+    width: 100%;
+    height: 68vh;
+    background-color: #201c24;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.container-1 p {
+    margin: 0;
+    padding: 0;
+    font-size: 3vw;
+    font-weight: bold;
+    padding-left: 10vw;
+    font-family: 'Kanit', sans-serif;
+}
+
+.container-2 {
+    background-color: white;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 9vw 0vw 0vw 10vw; /*top right bottom left */
+}
+
+.container-2 h1 {
+    font-family: 'Heebo', sans-serif;
+    padding-bottom: 2.6vw;
+    font-weight: bold;
+}
+
+.container-2 .homeMenu {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2vw;
+}
+
+.menuItem {
+    display: flex;
+    flex-direction: row;
+}
+
+.nameDesc{
+    width: 28vw;
+    font-size: 1.2vw;
+    
+}
+
+.price{
+    color: black;
+    font-size: 1.2vw;
+}
+
+.container-2 .buttonDiv {
+    padding-top: 0.5vw;
+}
+
+.container-2 button {
+    height: 3.3vw;
+    width: 11.5vw;
+    font-size: 17px;
+    font-family: 'Ramaraja', serif;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.container-2 button:hover {
+    background-color: #383434;
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.container-3 {
+    width: 80;
+    height: 95vh;
+    background-color: #dad8d3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13vw;
+    padding: 3.5vw 9.5vw 3.5vw 9.5vw; /*top right bottom left */
+    
+}
+
+.container-3 .leftPhoto {
+    height: 37.5vw;
+    width: 40vw;
+    background-repeat: no-repeat;
+}
+
+.container-3 .rightText {
+    width: 28vw;
+}
+
+.container-3 h1 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 2.6vw;
+}
+
+.rightText p{
+    font-size: 1.2vw;
+    line-height: 1.6;
+}
+
+.container-4 {
+    background-color: white;
+    width: auto;
+    height: 56vw;
+    display: flex;
+    justify-content: space-between
+}
+
+.container-4 .leftText {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 10vw;
+    padding-top: 7vw;
+}
+
+.container-4 p {
+    font-size: 1.2vw;
+    width: 26vw;
+    line-height: 1.6;
+}
+
+.container-4 h1 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.9vw;
+}
+
+.container-4 .rightPhoto {
+    width: 36vw;
+    height: 56vw;
+    background-repeat: no-repeat;
+    padding-right: 5vw;
+}
+
+.container-5 {
+    width: auto;
+    background-color: #dad8d3;
+    height: 73vw;
+}
+
+.grid-container {
+    padding: 8.2vw 9.5vw 4.8vw 9.5vw; /*top right bottom left */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1.5vw;
+    height: 48.3vw;
+}
+
+.container-5 .bottomText {
+    font-size: 1.65vw;
+    font-weight: bold;
+    padding-left: 9.5vw;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container-6 {
+    background-color: #201c24;
+    width: auto;
+    height: 26vw;
+    color: white;
+    padding: 7.4vw 0vw 0vw 10vw;
+}
+
+.container-6 h1 {
+    font-size: 2.7vw;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container-6 p  {
+    font-size: 1.15vw;
+    line-height: 1.6;
+}
+
+.container-6 button {
+    width: 10vw;
+    height: 3.5vw;
+    cursor: pointer;
+    border-style: none;
+}
+
+.container-6 button:hover {
+    background-color: #383637;
+    color: white;
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+/* *{
+    outline: 1px solid red;
+}  */

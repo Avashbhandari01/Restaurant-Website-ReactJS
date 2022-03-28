@@ -1,0 +1,67 @@
+.footer {
+    background-color: #eee9e2;
+    width: auto;
+    height: 21.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5vw 5vw 5vw 8vw; /*top right bottom left */
+    line-height: 1.6;
+}
+
+.footer p {
+    font-size: 1.05vw;
+}
+
+.footer .headerText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+}
+
+.footer .centerText {
+    width: 30vw;
+    padding-top: 5.5vw;
+    padding-left: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .centerText .socials {
+    height: 6.5vw;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    gap: 3vw;
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+
+.footer .officeLocation {
+    width: 25vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer .leftText {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer .rightText {
+    width: 30vw;
+    height: 25vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+/* * {
+    outline: 1px solid red;
+} */

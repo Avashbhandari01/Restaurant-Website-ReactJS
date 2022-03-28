@@ -1,0 +1,125 @@
+.bookatable {
+    width: auto;
+    height: 50.4vw;
+    background-color: #eee9e2;
+    padding: 13.4vw 0vw 0vw 9.4vw;/*top right bottom left */
+}
+
+.bookatable h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.6vw;
+    margin: 0vw 0vw 0vw 0.3vw;
+}
+
+.desc{
+    line-height: 1.6;
+    font-size: 1.2vw;
+    opacity: 0.7;
+    margin: 0vw 0vw 0.8vw 0.5vw; 
+}
+
+.formDiv p {
+    color: black;
+    margin: 0vw 0vw 0.3vw 0.5vw;
+    font-size: 1.1vw;
+}
+
+.formDiv input {
+    width: 39vw;
+    height: 3vw;
+    border-style: none;
+    background-color: #f1f1f1;
+    margin: 0vw 0vw 0.3vw 0.5vw; 
+    padding-left: 0.85vw;
+    font-family: 'Rufina', serif;
+    font-size: 1.1vw;
+    outline: none;
+}
+
+.formDiv input::placeholder {
+    padding-left: 0.1vw;
+    font-family: 'Rufina', serif;
+    font-size: 1vw;
+}
+
+.formDiv .lastName {
+    margin: 1.3vw 0vw 0.3vw 0.5vw; 
+}
+
+.formDiv .yourEmail {
+    margin: 1.3vw 0vw 0.3vw 0.5vw; 
+}
+
+.formDiv .message {
+    margin: 1.3vw 0vw 0.3vw 0.5vw; 
+}
+
+.formDiv textarea {
+    width: 39.7vw;
+    height: 6.5vw;
+    outline: none;
+    border-style: none;
+    background-color: #f1f1f1;
+    margin: 0vw 0vw 0.3vw 0.5vw;
+    min-width: 39.7vw;
+    min-height: 6.5vw;
+    resize: none;
+}
+
+.textareaDiv textarea {
+    padding: 1.4vw 0vw 0vw 1vw;
+}
+
+.textareaDiv textarea::placeholder {
+    font-family: 'Rufina', serif;
+    font-size: 1vw;
+}
+
+.bookatable button {
+    width: 8.3vw;
+    height: 3.2vw;
+    background-color: rgb(22, 20, 20);
+    color: white;
+    border-style: none;
+    margin: 1.5vw 0vw 0vw 0.5vw;
+    font-family: 'Rufina', serif;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.bookatable button:hover {
+    background-color: #383434;
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.messageContainer {
+    width: auto;
+    height: 33.2vw;
+    background-color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10.8vw;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3vw;
+}
+
+.errorName {
+    opacity: 0.7;
+}
+
+.errorEmail {
+    opacity: 0.7;
+}
+
+.errorMessage {
+    opacity: 0.7;
+}
+
+/* *{
+    outline: 1px solid red;
+} */
+
+
