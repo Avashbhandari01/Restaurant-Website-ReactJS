@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Restaurant-Website-ReactJS/static/css/main.3f4e251b.css",
+    "main.js": "/Restaurant-Website-ReactJS/static/js/main.2f6aeb2c.js",
+    "static/js/787.5653e3f8.chunk.js": "/Restaurant-Website-ReactJS/static/js/787.5653e3f8.chunk.js",
+    "static/media/Bg3.jpg": "/Restaurant-Website-ReactJS/static/media/Bg3.2010534c1e424d0f651d.jpg",
+    "static/media/Food12.PNG": "/Restaurant-Website-ReactJS/static/media/Food12.f47c58e2874e16e8bc5a.PNG",
+    "static/media/Food11.PNG": "/Restaurant-Website-ReactJS/static/media/Food11.12b2350b9be664d9a5ee.PNG",
+    "static/media/Food9.PNG": "/Restaurant-Website-ReactJS/static/media/Food9.a32b84dc8ce8fb93cd0c.PNG",
+    "static/media/Food10.PNG": "/Restaurant-Website-ReactJS/static/media/Food10.5cb32c01a28b310d97f5.PNG",
+    "static/media/Food13.PNG": "/Restaurant-Website-ReactJS/static/media/Food13.ae2e8155a8dc231b2e93.PNG",
+    "static/media/Restro.jpg": "/Restaurant-Website-ReactJS/static/media/Restro.91a5907187a106cb50fd.jpg",
+    "static/media/Food8.PNG": "/Restaurant-Website-ReactJS/static/media/Food8.905054e66aba7a9395f4.PNG",
+    "static/media/Dish.PNG": "/Restaurant-Website-ReactJS/static/media/Dish.bf8c9922397d34432a58.PNG",
+    "static/media/Food7.PNG": "/Restaurant-Website-ReactJS/static/media/Food7.d66e5400327a94297152.PNG",
+    "static/media/menu.jpg": "/Restaurant-Website-ReactJS/static/media/menu.e3e341e5fc23ffff47ea.jpg",
+    "index.html": "/Restaurant-Website-ReactJS/index.html",
+    "main.3f4e251b.css.map": "/Restaurant-Website-ReactJS/static/css/main.3f4e251b.css.map",
+    "main.2f6aeb2c.js.map": "/Restaurant-Website-ReactJS/static/js/main.2f6aeb2c.js.map",
+    "787.5653e3f8.chunk.js.map": "/Restaurant-Website-ReactJS/static/js/787.5653e3f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f4e251b.css",
+    "static/js/main.2f6aeb2c.js"
+  ]
+}
