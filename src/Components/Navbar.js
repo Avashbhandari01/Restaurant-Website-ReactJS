@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="leftSide">
-        <Link to="/"><p>Yums.</p></Link>
+        <Link to="/Restaurant-Website-ReactJS"><p>Yums.</p></Link>
       </div>
       <div className="rightSide">
         <NavLink to="/menu" className={({ isActive }) =>

@@ -15,7 +15,7 @@ function App() {
         <ScrollToTop />
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Restaurant-Website-ReactJS" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/book" element={<Bookatable />} />
           <Route path="/menu" element={<Menu />} />
